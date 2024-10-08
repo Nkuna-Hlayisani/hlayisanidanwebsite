@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    background-color: #3d09e7;
+    color: #2e2e2e;
+    padding: 0 20px;
+}
+
+
+nav {
+    background-color: #1a1a2e;
+    color: hsl(0, 0%, 2%);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 15px;
+    border-radius: 30px;
+    transition: background-color 4s ease;
+}
+
+nav ul li a:hover {
+    background-color: #223cc0;
+}
+
+
+section {
+    margin: 30px 0;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+section:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #1a1a2e;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+p, li {
+    font-size: 1.1em;
+    color: #525252;
+    margin-bottom: 15px;
+}
+
+
+button {
+    background-color: #1a1a2e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 30px;
+    transition: background-color 2s ease;
+}
+
+button:hover {
+    background-color: #350bed;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e3e3e3;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #180a78;
+    color: white;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #1a1a2e;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color: #f7f8fc;
+    color: #333;
+}
+
+form button {
+    background-color: #3d0cd2;
+    border: none;
+    padding: 15px;
+    font-size: 1em;
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+form button:hover {
+    background-color: #1a1a2e;
+}
+
+
+h2 {
+    border-bottom: 2px solid #060203;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    form {
+        width: 100%;
+    }
+}

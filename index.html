@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav>
+        <ul>
+            <li><a href="#HOME">HOME</a></li>
+            <li><a href="#PERSONAL-INFO">PERSONAL-INFO</a></li>
+            <li><a href="#EDUCATION">EDUCATION</a></li>
+            <li><a href="#WORK-EXPERIENCE">WORK-EXPERIENCE</a></li>
+            <li><a href="#SKILLS">SKILLS</a></li>
+            <li><a href="#PROJECTS">PROJECTS</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+     <section id="HOME">
+        <h1> <span>W</span>ELCOME TO MY PORTFOLIO</h1>
+        <p>Hello, i am <span>NKUNA DAN</span> and this is my professinal portfolio.</p>
+    </section>
+
+    <!-- PERSONAL INFO SECTION -->
+     <section id="PERSONAL-INFO">
+         <h2>PERSONAL INFO</h2>
+         <p><strong>Name:</strong> Nkuna dan</p>
+         <p><strong>Email:</strong> hlayisanidan01@gmail.com</p>
+         <p><strong>Phone:</strong> 078 602 6763</p>
+         <p><strong>Bio:</strong> I am first student doing computer science at university of Limpopo</p>
+     </section>
+     
+     <!-- Educatin sSEction-->
+    <section id="EDUCATION">
+        <h2>EDUCATION</h2>
+        <ul>
+         <li><strong>Degree:</strong> BSc. Mathematical Sciences</li>
+         <li><strong>institution:</strong> University of Limpopo</li>
+         <li><strong>Year:</strong> First year</li>
+        </ul>
+    </section>
+
+    <!--Work Experience Section-->
+    <section id="WORK-EXPERIENCE">
+        <h2>WORK-EXPERIENCE</h2>
+        <ul>
+            <li><strong>Experience:</strong> I do not have work experience because i am still a student</li>
+        </ul>
+    </section>
+
+    <!-- Skills Sections-->
+    <section id="SKILLS">
+        <h2>SKILLS</h2>
+         <ul>
+         <li>HTML, CSS</li>
+         <li>C++</li>
+        </ul>
+    </section>
+
+    <!--Projects Section -->
+    <section id="PROJECTS">
+       <h2>PROJECTS</h2>
+       <ul>
+         <li><strong>Project Name:</strong>Website project</li>
+         <li><strong>Description:</strong>Create a dynamic website for your curriculum vitae(CV)</li>
+       </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="Contact">
+        <h2> Contact me</h2>
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message"  name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+    </section>
+</body>
+</html>
